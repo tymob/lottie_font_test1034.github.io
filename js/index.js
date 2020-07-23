@@ -10,7 +10,7 @@ const element = document.getElementById('star');
 
 element.addEventListener('click', function(){
   if(element.classList.contains('clicked')){
-    animation.playSegments([0,1], true);
+    animation.playSegments([0,5], true);
     element.classList.remove('clicked');
   }else{
     animation.playSegments([0,60], true);
