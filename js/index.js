@@ -13,7 +13,7 @@ element.addEventListener('click', function(){
     animation.playSegments([0,1], true);
     element.classList.remove('clicked');
   }else{
-    animation.playSegments([0,30], true);
+    animation.playSegments([0,60], true);
     element.classList.add('clicked');
   }
  });
